@@ -241,7 +241,7 @@ pub fn run_job(tab: &TabState, ctx: &Context) -> Result<JobOutput, AppError> {
             key_type_selected, ..
         } => {
             if *key_type_selected {
-                let info = app::mnemonic::new(ctx, 12, None)?;
+                let info = app::mnemonic::new(ctx, 24, None)?;
                 let xprv = info.root.xprv.to_string();
                 Ok(JobOutput {
                     text: format!(

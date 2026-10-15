@@ -1,6 +1,7 @@
 [workspace]
 resolver = "3"
 members = ["crates/btc-core", "crates/btc-node", "crates/btc"]
+default-members = ["crates/btc"]
 
 [workspace.package]
 version = "0.1.0"

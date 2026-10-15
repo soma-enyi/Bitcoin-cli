@@ -1,0 +1,2 @@
+[alias]
+tui = "run -p btc --release -- tui"

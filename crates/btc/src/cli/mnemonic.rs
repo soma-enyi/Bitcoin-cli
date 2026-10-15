@@ -7,7 +7,7 @@ pub enum MnemonicCmd {
     New {
         #[arg(
             long,
-            default_value = "12",
+            default_value = "24",
             value_parser = PossibleValuesParser::new(["12", "15", "18", "21", "24"])
                 .map(|s| s.parse::<usize>().expect("possible values are numbers"))
         )]

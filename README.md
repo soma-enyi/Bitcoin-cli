@@ -47,8 +47,8 @@ btc key generate --type ecdsa
 
 ### Mnemonics
 ```bash
-btc mnemonic new --words 12
-# Output: 12 words, xprv, xpub, fingerprint
+btc mnemonic new --words 24
+# Output: 24 words, xprv, xpub, fingerprint
 ```
 
 ### Derivation
